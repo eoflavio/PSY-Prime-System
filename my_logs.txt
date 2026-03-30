@@ -1,0 +1,111 @@
+    at reportTSError (/
+usr/src/app/node_module
+s/ts-node/src/index.ts:
+863:19)
+    at getOutput (/usr/
+src/app/node_modules/ts
+-node/src/index.ts:1077
+:36)
+    at Object.compile (
+/usr/src/app/node_modul
+es/ts-node/src/index.ts
+:1433:41)
+    at 
+Module.m._compile (/usr
+/src/app/node_modules/t
+s-node/src/index.ts:161
+7:30)
+    at 
+Module._extensions..js 
+(node:internal/modules/
+cjs/loader:1623:10)
+    at Object.require.e
+xtensions.<computed> 
+[as .ts] (/usr/src/app/
+node_modules/ts-node/sr
+c/index.ts:1621:12)
+    at Module.load (nod
+e:internal/modules/cjs/
+loader:1266:32)
+    at 
+Function.Module._load (
+node:internal/modules/c
+js/loader:1091:12)
+    at Module.require (
+node:internal/modules/c
+js/loader:1289:19) {
+  diagnosticCodes: [ 
+2694, 2694 ]
+}
+/usr/src/app/node_modul
+es/ts-node/src/index.ts
+:859
+    return new TSError(
+diagnosticText, 
+diagnosticCodes, 
+diagnostics);
+           ^
+TSError: ??? Unable to 
+compile TypeScript:
+src/repositories/user.r
+epository.ts(5,29): 
+error TS2694: 
+Namespace '"/usr/src/ap
+p/node_modules/.prisma/
+client/default".Prisma'
+ has no exported 
+member 
+'UserCreateInput'.
+src/repositories/user.r
+epository.ts(28,41): 
+error TS2694: 
+Namespace '"/usr/src/ap
+p/node_modules/.prisma/
+client/default".Prisma'
+ has no exported 
+member 
+'UserUpdateInput'.
+
+    at createTSError (/
+usr/src/app/node_module
+s/ts-node/src/index.ts:
+859:12)
+    at reportTSError (/
+usr/src/app/node_module
+s/ts-node/src/index.ts:
+863:19)
+    at getOutput (/usr/
+src/app/node_modules/ts
+-node/src/index.ts:1077
+:36)
+    at Object.compile (
+/usr/src/app/node_modul
+es/ts-node/src/index.ts
+:1433:41)
+    at 
+Module.m._compile (/usr
+/src/app/node_modules/t
+s-node/src/index.ts:161
+7:30)
+    at 
+Module._extensions..js 
+(node:internal/modules/
+cjs/loader:1623:10)
+    at Object.require.e
+xtensions.<computed> 
+[as .ts] (/usr/src/app/
+node_modules/ts-node/sr
+c/index.ts:1621:12)
+    at Module.load (nod
+e:internal/modules/cjs/
+loader:1266:32)
+    at 
+Function.Module._load (
+node:internal/modules/c
+js/loader:1091:12)
+    at Module.require (
+node:internal/modules/c
+js/loader:1289:19) {
+  diagnosticCodes: [ 
+2694, 2694 ]
+}
